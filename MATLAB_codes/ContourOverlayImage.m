@@ -36,7 +36,7 @@ for i = 1:length(Npicture)
     row = find(Ibw(:,col), 1 );
 
     fig1 = figure(1);
-    fig1.Position = [680 558 423 420];
+    fig1.Position = [200 200 423 420];
     axes('Units', 'normalized', 'Position', [0 0 1 1]);
     Itra = bwboundaries(Irem);          % Traces region boundaries in binary image. 
     disp("N flocs = " + length(Itra))
