@@ -1,6 +1,8 @@
 # pre-and-post-image-processing-for-flocs
 
 You will find MATLAB219b (or later) codes to process your images. <br />   
+If you have an earlier MATLAB version, you cannot use the function "centerCropWindow2d", which is used in the code CroppingImages.m. For tutorial purposes, you can use the cropped images from the folder "CroppedImages1000by1000" to applied the image processing and the post-processing
+
 Pre-processing: CroppingImages <br /> 
 Post-processing: FlocCounter, PlotFlocCounterML_interactions, ContourOverlayImage, Code Descriptions <br />
 ## Code Descriptions  
