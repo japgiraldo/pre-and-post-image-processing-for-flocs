@@ -36,7 +36,7 @@ end
 for j = 1:nSeries
     
     fig{j} = figure(j);
-    fig{j}.Position = [635 500 783 420];
+    fig{j}.Position = [200 200 783 420];
     
     for i = 1:nTrains
         semilogx(TimeSample,nIcounS{i}(:,j),'-o','LineWidth',1.5,'MarkerSize',5)
