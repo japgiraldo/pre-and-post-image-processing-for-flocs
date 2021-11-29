@@ -13,8 +13,8 @@ ContourOverlayImage: This code performs a delimitation of the edges of the detec
 ## Example: Bentonite images
 Number of images: 80 <br />
 Number of time series: 2 <br />
-Series nnumber 1: Odd labels
-Series nnumber 2: Even labels
+Series nnumber 1: Odd labels <br />
+Series nnumber 2: Even labels <br />
 Sampling rate for a single serie: <br />
                                   t1 = 0.5:0.5:10; <br />
                                   t2 = t1(end)+1:1:30; <br />
