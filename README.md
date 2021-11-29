@@ -2,8 +2,8 @@
 
 Pre- and Post-processing floc images   You will find for MATLAB codes to process your images.   
 Pre-processing: CroppingImages 
-Post-processing: FlocCounter, PlotFlocCounterML_interactions, ContourOverlayImage  
-Code Descriptions   
+Post-processing: FlocCounter, PlotFlocCounterML_interactions, ContourOverlayImage, Code Descriptions 
+# Code Descriptions  
 CroppingImages: This code crops the batch images.
 FlocCounter: This code counts flocs using batch images.
 PlotFlocCounterML_interactions: This code shows the evolution of each training.
