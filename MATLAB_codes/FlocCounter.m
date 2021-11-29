@@ -76,7 +76,7 @@ end
 
 %% Checking the plot 
 fig1 = figure(1);
-fig1.Position = [635 500 783 420];
+fig1.Position = [200 200 783 420];
 
 for ser = 1:nSeries
     semilogx(TimeSample,n_IcounterS(:,ser),'-o','LineWidth',1.5)
